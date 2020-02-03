@@ -2,7 +2,7 @@ FROM ubuntu:18.04
 
 
 RUN apt-get update -qqy \
-   && apt-get -qqy maven
+   && apt-get -qqy maven \
    && rm -rf /var/lib/apt/lists/*
 
 USER root
