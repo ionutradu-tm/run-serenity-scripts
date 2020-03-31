@@ -9,6 +9,10 @@ RUN apt-get update -qqy \
    openjdk-8-jdk \
    && rm -rf /var/lib/apt/lists/*
 
+COPY pom.xml /pom.xml
+RUN cd /
+RUN mvn verify clean --fail-never
+
 USER root
 
 RUN mkdir -p /home/remoteuser/serenity-project
