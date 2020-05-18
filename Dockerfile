@@ -7,6 +7,9 @@ RUN apt-get update -qqy \
    psmisc \
    tcpdump \
    openjdk-8-jdk \
+   python3 \
+   python3-pip \
+   ruby-full \
    && rm -rf /var/lib/apt/lists/*
 
 COPY pom.xml /pom.xml
