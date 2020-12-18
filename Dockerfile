@@ -1,6 +1,5 @@
 FROM ubuntu:18.04
 
-COPY google-chrome.list /etc/apt/sources.list.d/google-chrome.list
 RUN apt-get update -qqy \
    && apt-get -qqy install \
    maven \
@@ -12,7 +11,7 @@ RUN apt-get update -qqy \
    ruby-full \
    wget \
    && rm -rf /var/lib/apt/lists/*
-
+COPY google-chrome.list /etc/apt/sources.list.d/google-chrome.list
 RUN wget https://dl.google.com/linux/linux_signing_key.pub
 RUN apt-key add linux_signing_key.pub
 RUN  apt-get update -qqy \
