@@ -17,7 +17,7 @@ RUN wget https://dl.google.com/linux/linux_signing_key.pub
 RUN apt-key add linux_signing_key.pub
 RUN  apt-get update -qqy \
     && apt-get -qqy install \
-    google-chrome-stable \
+    chromium-browser \
     && rm -rf /var/lib/apt/lists/*
 
 COPY pom.xml /pom.xml
