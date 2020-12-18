@@ -10,7 +10,15 @@ RUN apt-get update -qqy \
    python3 \
    python3-pip \
    ruby-full \
+   wget \
    && rm -rf /var/lib/apt/lists/*
+
+RUN wget https://dl.google.com/linux/linux_signing_key.pub
+RUN apt-key add linux_signing_key.pub
+RUN  apt-get update -qqy \
+    && apt-get -qqy install \
+    google-chrome-stable \
+    && rm -rf /var/lib/apt/lists/*
 
 COPY pom.xml /pom.xml
 RUN cd /
