@@ -26,6 +26,7 @@ RUN sed -i "/jdk.tls.disabledAlgorithms=/ s/=.*/=TLSv1.3, SSLv3, RC4, MD5withRSA
 USER root
 
 RUN mkdir -p /home/remoteuser/serenity-project
+RUN chmod 0777 /tmp
 
 WORKDIR /home/remoteuser/serenity-project
 
