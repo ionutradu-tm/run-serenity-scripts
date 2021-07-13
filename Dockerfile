@@ -11,6 +11,12 @@ RUN apt-get update -qqy \
    ruby-full \
    wget \
    && rm -rf /var/lib/apt/lists/*
+
+RUN locale-gen en_US.UTF-8
+ENV LANG en_US.UTF-8
+ENV LANGUAGE en_US:en
+ENV LC_ALL en_US.UTF-8
+
 COPY google-chrome.list /etc/apt/sources.list.d/google-chrome.list
 RUN wget https://dl.google.com/linux/linux_signing_key.pub
 RUN apt-key add linux_signing_key.pub
