@@ -27,7 +27,7 @@
         <commons-io.version>2.6</commons-io.version>
         <commons-lang3.version>3.9</commons-lang3.version>
         <browserstack.loca1.version>1.0.3</browserstack.loca1.version>
-        <jetty.io.version>9.4.20.v20190813</jetty.io.version>
+        <jetty.io.version>9.4.52.v20230823</jetty.io.version>
         <java-faker.version>0.18</java-faker.version>
         <!--Plugin Versions-->
         <serenity.maven.version>2.0.43</serenity.maven.version>
@@ -37,7 +37,7 @@
         <maven-enforcer-plugin.version>1.4</maven-enforcer-plugin.version>
         <maven-compiler-plugin.version>3.2</maven-compiler-plugin.version>
         <!--Config Properties-->
-        <tags></tags>
+        <tags/>
         <parallel.tests>1</parallel.tests>
     </properties>
 
