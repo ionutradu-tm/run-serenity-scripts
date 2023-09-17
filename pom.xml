@@ -18,7 +18,7 @@
         <!--Dependency Versions-->
         <serenity.version>2.0.86</serenity.version>
         <cucumber.version>4.2.0</cucumber.version>
-        <serenity.cucumber4.version>1.0.7</serenity.cucumber4.version>
+        <serenity.cucumber4.version>1.0.30</serenity.cucumber4.version>
         <serenity-jira-requirements-provider>1.9.0</serenity-jira-requirements-provider>
         <slf4j.version>1.7.25</slf4j.version>
         <logback-classic.version>1.2.3</logback-classic.version>
@@ -37,7 +37,7 @@
         <maven-enforcer-plugin.version>1.4</maven-enforcer-plugin.version>
         <maven-compiler-plugin.version>3.2</maven-compiler-plugin.version>
         <!--Config Properties-->
-        <tags></tags>
+        <tags/>
         <parallel.tests>1</parallel.tests>
     </properties>
 
