@@ -16,7 +16,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
         <!--Dependency Versions-->
-        <serenity.version>2.0.86</serenity.version>
+        <serenity.version>4.0.19</serenity.version>
         <cucumber.version>4.2.0</cucumber.version>
         <serenity.cucumber4.version>1.0.7</serenity.cucumber4.version>
         <serenity-jira-requirements-provider>1.9.0</serenity-jira-requirements-provider>
@@ -24,7 +24,7 @@
         <logback-classic.version>1.2.3</logback-classic.version>
         <assertj-core.version>3.11.1</assertj-core.version>
         <commons-text.version>1.7</commons-text.version>
-        <commons-io.version>2.6</commons-io.version>
+        <commons-io.version>2.14.0</commons-io.version>
         <commons-lang3.version>3.9</commons-lang3.version>
         <browserstack.loca1.version>1.0.3</browserstack.loca1.version>
         <jetty.io.version>9.4.20.v20190813</jetty.io.version>
@@ -37,7 +37,7 @@
         <maven-enforcer-plugin.version>1.4</maven-enforcer-plugin.version>
         <maven-compiler-plugin.version>3.2</maven-compiler-plugin.version>
         <!--Config Properties-->
-        <tags></tags>
+        <tags/>
         <parallel.tests>1</parallel.tests>
     </properties>
 
