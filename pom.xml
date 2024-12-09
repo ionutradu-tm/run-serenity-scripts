@@ -24,7 +24,7 @@
         <logback-classic.version>1.2.3</logback-classic.version>
         <assertj-core.version>3.11.1</assertj-core.version>
         <commons-text.version>1.7</commons-text.version>
-        <commons-io.version>2.6</commons-io.version>
+        <commons-io.version>2.7</commons-io.version>
         <commons-lang3.version>3.9</commons-lang3.version>
         <browserstack.loca1.version>1.0.3</browserstack.loca1.version>
         <jetty.io.version>9.4.20.v20190813</jetty.io.version>
